@@ -1,13 +1,24 @@
 body{
   margin: 0px;
-  height: 1440px;
-  width: 1500px;
+  height: 1400px;
+  width: auto;
 }
 header{
-  margin-left: 0px;
-  margin-top: 0px;
+  margin: 0 auto;
   height: 10%;
   width:100%;
-  background-color: #000000;
-  opacity: 0.8;
+  background-color: #888;
+}
+#logo{
+  height: 75px;
+  width: 175px;
+  margin: 0 45%;
+}
+button{
+  background-color:#555;
+  float: left;
+  margin: 0 auto;
+}
+button:hover{
+  opacity: 0.5;
 }
