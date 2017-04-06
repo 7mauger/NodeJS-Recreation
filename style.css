@@ -35,8 +35,33 @@ button:hover{
 #picture1{
     border-color: #fff;
     height:10%;
-    width: 925px;
+    width: 915px;
 }
 #picture1:hover{
     border-color: #161;
+}
+#text1{
+    margin: 0 10%;
+    height:10%;
+    width: 800px;
+}
+#text1 p{
+    color: #555;
+    font-size: 20px;
+    font-family: Helvetica, serif;
+    text-align: center;
+}
+#text2{
+    margin: 0 30%;
+    height: 5%;
+    width: 500px;
+}
+#text2 h{
+    color: #333;
+    font-size: 28px;
+    font-family: Helvetica, serif;
+    text-align: center;
+}
+#div_buttons{
+    margin: 10%;
 }
