@@ -63,13 +63,21 @@ button:hover{
     text-align: center;
 }
 article{
-    margin: 0 20%;
+    margin: 0 25%;
     width: 1000px;
 }
 .div_buttons{
     float: left;
     background-color: #080;
     height: 100px;
-    width: 300px;
-    margin: 0 3%;
+    width: 250px;
+    margin: 0 2%;
+    text-align: center;
+    color: #fff;
+}
+.div_buttons h1{
+
+}
+.div_buttons h{
+
 }
