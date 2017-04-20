@@ -6,7 +6,7 @@ function hover(){
 }
 
 function hoverOn(){
-    if(state = true){
+    if(state === true){
         doc.getElementsByClass('div_buttons').style.opacity="0.5";
         state = false;
     }
