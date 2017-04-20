@@ -19,7 +19,7 @@ header{
     width: 1000px;
     margin: 0 30%;
 }
-button{
+.header_buttons{
   background-color:#333;
   font-size: 15px;
   float: left;
@@ -75,9 +75,21 @@ article{
     text-align: center;
     color: #fff;
 }
-.div_buttons h1{
-
+section{
+    margin: 0 25%;
+    width: 575px;
 }
-.div_buttons h{
-
+.buttons1{
+    float: left;
+}
+.buttons2{
+    float: right;
+}
+.inner_buttons{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-width: 1px;
+    background-color: #fff;
+    color: #444;
 }

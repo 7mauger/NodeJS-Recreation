@@ -9,14 +9,14 @@
   <header>
     <img id="logo" src="https://nodejs.org/static/images/logo.svg">
     <div id="buttons">
-        <button id="home">Home</button>
-        <button id="about">About</button>
-        <button id="downloads">Downloads</button>
-        <button id="docs">Docs</button>
-        <button id="foundation">Foundation</button>
-        <button id="get_involved">Get Involved</button>
-        <button id="security">Security</button>
-        <button id="news">News</button>
+        <button class="header_buttons" id="home">Home</button>
+        <button class="header_buttons" id="about">About</button>
+        <button class="header_buttons" id="downloads">Downloads</button>
+        <button class="header_buttons" id="docs">Docs</button>
+        <button class="header_buttons" id="foundation">Foundation</button>
+        <button class="header_buttons" id="get_involved">Get Involved</button>
+        <button class="header_buttons" id="security">Security</button>
+        <button class="header_buttons" id="news">News</button>
     </div>
   </header>
   <img id="picture1" border="20" src="https://nodejs.org/static/images/interactive/background.jpg">
@@ -29,7 +29,7 @@
       <h>Download for Windows (x64)</h>
   </div>
   <article>
-      <div class="div_buttons" id="dbutton1">
+      <div class="div_buttons" id="dbutton1" onmouseover="hover()">
           <h1>v6.10.2 LTS</h1>
           <h>Recommended For Most Users</h>
       </div>
@@ -38,17 +38,17 @@
           <h>Latest Features</h>
       </div>
   </article>
-  <article>
+  <section>
       <div class="buttons1">
-          <button id=""></button>
-          <button id=""></button>
-          <button id=""></button>
+          <button class="inner_buttons">Other Downloads</button>
+          <button class="inner_buttons">Changelog</button>
+          <button class="inner_buttons">API Docs</button>
       </div>
       <div class="buttons2">
-          <button id=""></button>
-          <button id=""></button>
-          <button id=""></button>
+          <button class="inner_buttons">Other Downloads</button>
+          <button class="inner_buttons">Changelog</button>
+          <button class="inner_buttons">API Docs</button>
       </div>
-  </article>
+  </section>
   </body>
 </html>
